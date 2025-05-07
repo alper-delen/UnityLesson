@@ -6,14 +6,14 @@ namespace LessonBasic
 {
     public class FirstScript : MonoBehaviour
     {
-        [SerializeField] private int testInt = 2;
-        // Start is called before the first frame update
+        // first lesson property
+
+        public float FloatProperty { get; set; }
         void Start()
         {
 
         }
 
-        // Update is called once per frame
         void Update()
         {
 
