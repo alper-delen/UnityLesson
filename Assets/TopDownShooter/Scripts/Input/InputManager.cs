@@ -11,6 +11,7 @@ namespace TopDownShooter.PlayerInput
         {
             _inputData.Horizontal = Input.GetAxis("Horizontal");
             _inputData.Vertical = Input.GetAxis("Vertical");
+            _inputData.Jump = Input.GetKeyDown(KeyCode.Space);
         }
     }
 }

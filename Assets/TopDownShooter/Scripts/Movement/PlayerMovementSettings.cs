@@ -9,5 +9,6 @@ namespace TopDownShooter.PlayerMovement
     {
         public float HorizontalSpeed = 5;
         public float VerticalSpeed = 5;
+        public Vector3 JumpForce = new Vector3(0, 5, 0);
     }
 }
